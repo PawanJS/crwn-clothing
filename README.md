@@ -16,19 +16,19 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://forkify-by-pawanjs.netlify.app/">
-    <img src="./src/img/logo.png" alt="Logo" width="100%" height="100%">
+  <a href="https://crwn-by-pawanjs.netlify.app/">
+    <img src="./src/assets/crown.svg" alt="Logo" width="100%" height="100%">
   </a>
 
-  <h3 align="center">Forkify</h3>
+  <h3 align="center">Crwn-Clothing</h3>
 
   <p align="center">
-    A recipe search application made with javascript.
+    A e-commerce web app built with React
     <br />
     <a href="#about-the-project"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://forkify-by-pawanjs.netlify.app/">View Demo</a>
+    <a href="https://crwn-by-pawanjs.netlify.app/">View Demo</a>
     ·
     <a href="https://github.com/PawanJS/crwn-clothingissues">Report Bug</a>
     ·
@@ -66,20 +66,20 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://forkify-by-pawanjs.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://crwn-by-pawanjs.netlify.app/)
 
-Forkify is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data. This app uses modern JavaScript tools, such as Webpack to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5. The user can search for a specific recipe, and save to a favorites list via local storage. The user can easily increase or decrease
-servings as per his need and can view detailed directions.
+Crwn clothing is a e-commerce web app built using React. This app uses modern JavaScript tools, such as Webpack to bundle the modules, and Babel to convert ES6, ES7 and ES8 back to ES5.The user can sign up for account with google one click sign-in or with custom email address as well. The app uses firebase to handle its stuff related to backend.
 
 ### Built With
 
-This app is built with pure vanilla JavaScript along with HTML and SCSS. It uses webpack as module bundler and NPM as package manager.
+This app is built with React. It uses webpack as module bundler and NPM as package manager.
 
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [SCSS](https://sass-lang.com/)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript)
 - [Webpack](https://webpack.js.org/)
 - [NPM](https://www.npmjs.com/)
+- [React](https://www.reactjs.org/)
 
 <!-- GETTING STARTED -->
 
@@ -103,7 +103,7 @@ Start with the latest version of NPM to avoid any errors:
 1. Get a free API Key at [Forkify API_KEY](https://forkify-api.herokuapp.com/v2)
 2. Clone the repo
    ```sh
-   git clone https://github.com/PawanJS_/forkify.git
+   git clone https://github.com/PawanJS_/crwn-clothing.git
    ```
 3. Install NPM packages
    ```sh
@@ -118,15 +118,11 @@ Start with the latest version of NPM to avoid any errors:
 
 ## Usage
 
-1. The Forkify Recipe App allows users to search for recipes.
+1. Crwn-clothing allows user to shop for various apparels.
 
-2. Users can view the recipe along with the cook time and also
-   increase or decrease the amount of servings they need.
+2. Users can create a account easily with one click sign-up from google.
 
-3. Bookmarked recipes are stored in local storage so no database was
-   required for this application.
-
-_For more examples, please refer to the [Documentation](https://forkify-api.herokuapp.com/v2)_
+3. All the users cart items are stored and displayed again after refreshing.
 
 <!-- ROADMAP -->
 
@@ -136,22 +132,15 @@ See the [open issues](https://github.com/PawanJS/crwn-clothingissues) for a list
 
 ### Proposed features
 
-1. Number of pages between the pagination buttons.
+1. Payments for the items bought on application.
 
-2. Ability to sort search results by duration or number of ingredients.
+2. Making app a PWA so it works even offline.
 
-3. Ingredient validation in view, before submitting the form.
+3. Fetch the user data from backend.
 
-4. Improving recipe ingredient input: separate in multiple fields and allow more
-   than 6 ingredients.
+4. Creating custom hooks
 
-5. Shopping list feature: button on recipe to add ingredients to a list.
-
-6. Weekly meal planning feature: assign recipes to the next 7 days and show
-   on a weekly calendar.
-
-7. Nutrition data on each ingredient from spoonacular API (https://
-   spoonacular.com/food-api) and calculate total calories of recipe.
+5. Optimizing redux files so the app performs well in low end devices
 
 <!-- CONTRIBUTING -->
 
