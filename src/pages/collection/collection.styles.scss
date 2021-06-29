@@ -9,11 +9,14 @@
 
   .items {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    // grid-gap: 10px;
+    gap: 1rem;
 
     & .collection-item {
       margin-bottom: 30px;
+      width: 100%;
     }
   }
 }
